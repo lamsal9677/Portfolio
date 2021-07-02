@@ -1,15 +1,17 @@
 <template>
-    <div>
-        <h3>Sanskar Lamsal Contact page</h3>
-    </div>
+  <div>
+    <b-container class="bv-example-row">
+      <b-row>
+        <b-col>1 of 3</b-col>
+        <b-col>2 of 3</b-col>
+        <b-col>3 of 3</b-col>
+      </b-row>
+    </b-container>
+  </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
