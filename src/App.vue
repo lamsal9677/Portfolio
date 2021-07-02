@@ -1,19 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <!-- <img alt="3" src="./Photos/1.jpg" /> -->
+    <onexone imgsource= "1.jpg"/>
+</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import onexone from "./components/onexone.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    //HelloWorld,
+    onexone
+  },
+};
 </script>
 
 <style>
