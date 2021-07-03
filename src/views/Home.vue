@@ -1,14 +1,10 @@
 <template>
   <div class="hello">
-    <h1>Hi I am home</h1>
+    <div>
+      <h1 id="Name">Hi, I'm Sanskar Lamsall</h1>
+    </div>
   </div>
 </template>
-
-<style scoped>
-#hi {
-  font-size: 300px;
-}
-</style>
 
 <script>
 export default {
@@ -16,3 +12,15 @@ export default {
   components: {},
 };
 </script>
+
+<style scoped>
+#hi {
+  font-size: 300px;
+  position: absolute;
+  justify-content: right;
+}
+
+#Name {
+  color: red;
+}
+</style>

@@ -1,42 +1,36 @@
 <template>
   <div id="app">
-    <Sidebar />
-    <router-view />
+    <Sidebar id="sidebar" />
+    <router-view id="routerview" />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
 import Sidebar from "./components/Sidebar/Sidebar.vue";
-// import { BIconArrowDown } from "bootstrap-vue";
-
 export default {
   name: "Home",
   components: {
     Sidebar,
-    // BIconArrowDown,
   },
 };
 </script>
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  display: flex;
 }
-
-#nav {
-  padding: 30px;
+#sidebar {
+  /* float: left; */
+  /* position: fixed; */
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  position: sticky;
+  /* position: ; */
+  /* height: inherit; */
 }
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+#routerview {
+  display: flex;
+  flex-direction: column;
 }
 </style>
