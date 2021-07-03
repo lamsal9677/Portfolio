@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div style="margin:auto; margin-top:20px">
     <div>
       <h1 id="Name">Hi, I'm Sanskar Lamsall</h1>
     </div>
@@ -13,14 +13,4 @@ export default {
 };
 </script>
 
-<style scoped>
-#hi {
-  font-size: 300px;
-  position: absolute;
-  justify-content: right;
-}
-
-#Name {
-  color: red;
-}
-</style>
+<style scoped></style>

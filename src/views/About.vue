@@ -1,5 +1,105 @@
 <template>
-  <div class="about">
-    <h1>Hi, I am Sanskar Lamsal about page</h1>
+  <div class="about" style="margin:auto; margin-top:20px">
+    <h1>Hi, I am Sanskar Lamsal</h1>
+    <p>
+      I am a student at The University of Toledo majoring in Computer Science
+      and Engineering
+    </p>
+    <p>
+      I am a student at The University of Toledo majoring in Computer Science
+      and Engineering
+    </p>
+    <p>
+      I am a student at The University of Toledo majoring in Computer Science
+      and Engineering
+    </p>
+    <p>
+      I am a student at The University of Toledo majoring in Computer Science
+      and Engineering
+    </p>
+    <p>
+      I am a student at The University of Toledo majoring in Computer Science
+      and Engineering
+    </p>
+    <p>
+      I am a student at The University of Toledo majoring in Computer Science
+      and Engineering
+    </p>
+    <p>
+      I am a student at The University of Toledo majoring in Computer Science
+      and Engineering
+    </p>
+    <p>
+      I am a student at The University of Toledo majoring in Computer Science
+      and Engineering
+    </p>
+    <p>
+      I am a student at The University of Toledo majoring in Computer Science
+      and Engineering
+    </p>
+    <p>
+      I am a student at The University of Toledo majoring in Computer Science
+      and Engineering
+    </p>
+    <p>
+      I am a student at The University of Toledo majoring in Computer Science
+      and Engineering
+    </p>
+    <p>
+      I am a student at The University of Toledo majoring in Computer Science
+      and Engineering
+    </p>
+    <p>
+      I am a student at The University of Toledo majoring in Computer Science
+      and Engineering
+    </p>
+    <p>
+      I am a student at The University of Toledo majoring in Computer Science
+      and Engineering
+    </p>
+    <p>
+      I am a student at The University of Toledo majoring in Computer Science
+      and Engineering
+    </p>
+    <p>
+      I am a student at The University of Toledo majoring in Computer Science
+      and Engineering
+    </p>
+    <p>
+      I am a student at The University of Toledo majoring in Computer Science
+      and Engineering
+    </p>
+    <p>
+      I am a student at The University of Toledo majoring in Computer Science
+      and Engineering
+    </p>
+    <p>
+      I am a student at The University of Toledo majoring in Computer Science
+      and Engineering
+    </p>
+    <p>
+      I am a student at The University of Toledo majoring in Computer Science
+      and Engineering
+    </p>
+    <p>
+      I am a student at The University of Toledo majoring in Computer Science
+      and Engineering
+    </p>
+    <p>
+      I am a student at The University of Toledo majoring in Computer Science
+      and Engineering
+    </p>
+    <p>
+      I am a student at The University of Toledo majoring in Computer Science
+      and Engineering
+    </p>
+    <p>
+      I am a student at The University of Toledo majoring in Computer Science
+      and Engineering
+    </p>
+    <p>
+      I am a student at The University of Toledo majoring in Computer Science
+      and Engineering
+    </p>
   </div>
 </template>

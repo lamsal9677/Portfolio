@@ -1,27 +1,22 @@
 <template>
   <div class="sideNavBar">
     <b-container class="bv-example-row">
-      <b-row class="openclosenav">
-        <button
-          class="expandcollapsesmall"
-          @click="expandCollapseFunction"
-          v-if="!isExpanded"
-        ></button>
-        <button
-          class="expandcollapsebig"
-          @click="expandCollapseFunction"
-          v-if="isExpanded"
-        ></button>
-      </b-row>
-
       <b-row style="margin:auto;">
         <router-link to="/" v-if="!isExpanded">
+          <img
+            class="circular--square--collapsed"
+            src="../../assets/profile.jpg"
+          />
           <h2 class="mainHeading">
             <div>S</div>
             <div>L</div>
           </h2>
         </router-link>
         <router-link to="/" v-if="isExpanded">
+          <img
+            class="circular--square--expanded"
+            src="../../assets/profile.jpg"
+          />
           <h2 class="mainHeading">
             <div>Sanskar</div>
             <div>Lamsal</div>
@@ -31,7 +26,7 @@
 
       <b-row id="tablerow">
         <router-link to="/about" v-if="!isExpanded">
-          <BIconInfoCircleFill class="icon" />
+          <BIconInfoCircleFill class="icons" />
         </router-link>
         <router-link to="/about" v-if="isExpanded" class="navLinkTitle">
           <BIconInfoCircleFill class="icon" /> About
@@ -44,7 +39,7 @@
           <BIconGearFill class="icon" />
         </router-link>
         <router-link to="/skills" v-if="isExpanded" class="navLinkTitle">
-          <BIconGearFill class="icon" /> Skills
+          <BIconGearFill class="icon" /> My Skills
         </router-link>
         <br />
       </b-row>
@@ -67,6 +62,19 @@
           <BIconTelephoneFill class="icon" /> Contact
         </router-link>
       </b-row>
+
+      <b-row class="openclosenav">
+        <BIconArrowBarRight
+          class="expandcollapsesmall"
+          @click="expandCollapseFunction"
+          v-if="!isExpanded"
+        />
+        <BIconArrowBarLeft
+          class="expandcollapsebig"
+          @click="expandCollapseFunction"
+          v-if="isExpanded"
+        />
+      </b-row>
     </b-container>
   </div>
 </template>
@@ -77,6 +85,8 @@ import {
   BIconGearFill,
   BIconTelephoneFill,
   BIconBriefcaseFill,
+  BIconArrowBarLeft,
+  BIconArrowBarRight,
 } from "bootstrap-vue";
 
 export default {
@@ -91,6 +101,8 @@ export default {
     BIconGearFill,
     BIconTelephoneFill,
     BIconBriefcaseFill,
+    BIconArrowBarLeft,
+    BIconArrowBarRight,
   },
   methods: {
     expandCollapseFunction() {
@@ -117,6 +129,12 @@ export default {
   background-color: black;
 }
 .icon {
+  /* margin: auto; */
+  font-size: 30px;
+  color: green;
+}
+.icons {
+  margin: auto;
   font-size: 30px;
   color: green;
 }
@@ -125,13 +143,27 @@ export default {
   font-size: 25px;
 }
 .expandcollapsebig {
-  min-width: 10px;
+  color: white;
+  font-size: 20px;
   height: 20px;
   margin: auto;
 }
 .expandcollapsesmall {
+  color: white;
+  font-size: 20px;
   margin: auto;
-  min-width: 10px;
   height: 20px;
+}
+.circular--square--expanded {
+  margin-top: 20px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.circular--square--collapsed {
+  margin-top: 20px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
 }
 </style>
