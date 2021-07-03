@@ -1,16 +1,23 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/skills">My Skills</router-link> |
-      <router-link to="/works">Works</router-link> |
-      <router-link to="/contact">Contact</router-link>
-    </div>
+    <Sidebar />
     <router-view />
   </div>
 </template>
 
+<script>
+// @ is an alias to /src
+import Sidebar from "./components/Sidebar/Sidebar.vue";
+// import { BIconArrowDown } from "bootstrap-vue";
+
+export default {
+  name: "Home",
+  components: {
+    Sidebar,
+    // BIconArrowDown,
+  },
+};
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
