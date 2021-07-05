@@ -20,6 +20,7 @@ export default {
 #app {
   text-align: center;
   display: flex;
+  background-color: rgb(229, 235, 230);
 }
 #sidebar {
   /* float: left; */

@@ -127,6 +127,7 @@ export default {
 }
 .sideNavBar {
   background-color: black;
+  padding: 10px;
 }
 .icon {
   /* margin: auto; */
@@ -137,6 +138,7 @@ export default {
   margin: auto;
   font-size: 30px;
   color: green;
+  /* text-align: center; */
 }
 .navLinkTitle {
   color: white;
