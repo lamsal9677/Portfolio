@@ -124,6 +124,7 @@ export default {
 #tablerow {
   height: 60px;
   margin: auto;
+  white-space: nowrap;
 }
 .sideNavBar {
   background-color: black;

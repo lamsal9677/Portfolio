@@ -15,7 +15,7 @@
         <b-col>
           <WorkExp
             id="compsize"
-            positionName="Frontend Development Intern"
+            positionName="Front-end Web Developer Intern"
             nameOfEmployer="Unum"
             dateEmployed="June 2021 to August 2021"
             logoSrc="https://i.imgur.com/yul3lGU.jpeg"
@@ -24,7 +24,7 @@
         <b-col>
           <WorkExp
             id="compsize"
-            positionName="Application Development & IT Intern"
+            positionName="Application Developer & IT Intern"
             nameOfEmployer="Plastic Technologies Inc."
             dateEmployed="January 2021 to May 2021"
             logoSrc="https://i.imgur.com/w2QVrdp.png"
@@ -47,6 +47,12 @@
         </b-col>
       </b-row>
       <b-row>
+        <b-col>
+          <Proj id="compsize" />
+        </b-col>
+        <b-col>
+          <Proj id="compsize" />
+        </b-col>
         <b-col>
           <Proj id="compsize" />
         </b-col>
