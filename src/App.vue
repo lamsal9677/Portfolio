@@ -1,18 +1,23 @@
 <template>
   <div id="app">
+    <div id="socialmediaicon">
+      <SocialMediaIcon />
+      <SocialMediaIcon />
+      <SocialMediaIcon />
+    </div>
     <Sidebar id="sidebar" />
     <router-view id="routerview" />
   </div>
 </template>
 
 <script>
-// import { BIconDownload } from "bootstrap-vue";
+import SocialMediaIcon from "./components/SocialMediaIcon/SocialMediaIcon";
 import Sidebar from "./components/Sidebar/Sidebar.vue";
 export default {
   name: "Home",
   components: {
     Sidebar,
-    // BIconDownload,
+    SocialMediaIcon,
   },
 };
 </script>
@@ -35,6 +40,16 @@ export default {
 #routerview {
   display: flex;
   flex-direction: column;
+}
+
+#socialmediaicon {
+  display: flex;
+  height: 15px;
+  width: 15px;
+  position: fixed;
+  top: 20px;
+  right: 150px;
+  z-index: 1;
 }
 </style>
 

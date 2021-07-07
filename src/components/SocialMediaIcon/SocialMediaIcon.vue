@@ -1,5 +1,7 @@
 <template>
-  <div id="main"></div>
+  <div>
+    <img id="main" src="../../assets/git.png" />
+  </div>
 </template>
 
 <script>
@@ -8,8 +10,9 @@ export default {};
 
 <style scoped>
 #main {
-  background: red;
-  height: 10px;
-  width: 10px;
+  /* background: red; */
+  height: 30px;
+  width: 30px;
+  margin: 5px;
 }
 </style>
