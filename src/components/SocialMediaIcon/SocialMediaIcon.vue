@@ -10,7 +10,6 @@ export default {};
 
 <style scoped>
 #main {
-  /* background: red; */
   height: 30px;
   width: 30px;
   margin: 5px;
