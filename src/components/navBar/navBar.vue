@@ -8,6 +8,7 @@
       <router-link to="/" id="link">HOME</router-link>
       <router-link to="/resume" id="link">RESUME</router-link>
       <router-link to="/skills" id="link">SKILLS</router-link>
+      <router-link to="/works" id="link">WORKS</router-link>
       <router-link to="/contact" id="link">CONTACT</router-link>
     </div>
   </div>
@@ -66,6 +67,6 @@ export default {
   color: green;
   padding: 2%;
   font-size: 2rem;
-  background-color: rgb(209, 209, 209);
+  background-color: rgb(158, 156, 156);
 }
 </style>
