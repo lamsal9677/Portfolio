@@ -5,9 +5,9 @@
       <router-link to="/" id="lastName">Lamsal</router-link>
     </div>
     <div id="links">
-      <router-link to="/about" id="link">HOME</router-link>
-      <router-link to="/about" id="link">RESUME</router-link>
-      <router-link to="/contact" id="link">SKILLS</router-link>
+      <router-link to="/" id="link">HOME</router-link>
+      <router-link to="/resume" id="link">RESUME</router-link>
+      <router-link to="/skills" id="link">SKILLS</router-link>
       <router-link to="/contact" id="link">CONTACT</router-link>
     </div>
   </div>
