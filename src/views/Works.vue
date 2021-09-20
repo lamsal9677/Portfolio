@@ -1,5 +1,5 @@
 <template>
-  <div style="margin:auto; margin-top:20px">
+  <div>
     <h2>Work Experience</h2>
     <b-container class="bv-example-row">
       <b-row>

@@ -1,5 +1,5 @@
 <template>
-  <div style="margin:auto; margin-top:20px">
+  <div>
     <div>
       <h1 id="Name">Hi, I'm Sanskar Lamsall</h1>
       <!-- Import About -->

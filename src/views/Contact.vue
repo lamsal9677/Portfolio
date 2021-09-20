@@ -1,5 +1,5 @@
 <template>
-  <div style="margin:auto; margin-top:20px">
+  <div>
     <h1>Contact me</h1>
 
     <p>
