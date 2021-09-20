@@ -16,7 +16,7 @@ export default {
 <style>
 #app {
   width: 100%;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 #routerView {
   margin-top: 1rem;
